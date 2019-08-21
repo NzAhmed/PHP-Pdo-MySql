@@ -3,6 +3,8 @@
     1- C:\xampp\mysql\bin>mysql -uroot
     2- MariaDB [(none)]> create database shopping;
     3- MariaDB [shopping]> create table products(id int primary key auto_increment,name varchar(50));
+
+    4- [php path]\bin>php index.php
     */
 
     $pdo = new PDO("mysql:host=localhost;dbname=shopping","root","");
